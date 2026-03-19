@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0f172a;
+  --foreground: #f8fafc;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.studio-card {
+  @apply bg-slate-800 border border-slate-700 rounded-xl p-6 shadow-xl;
+}
+
+.studio-input {
+  @apply w-full bg-slate-900 border border-slate-700 rounded-lg p-3 text-slate-100 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all;
+}
+
+.studio-button {
+  @apply bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+/* Interleaved Layout Styles */
+.interleaved-container {
+  @apply flex flex-col gap-6 w-full max-w-4xl mx-auto mt-8;
+}
+
+.content-block {
+  @apply p-5 rounded-lg border bg-opacity-50 backdrop-blur-sm transition-all duration-300;
+}
+
+.block-story {
+  @apply bg-slate-800 border-slate-700 text-slate-200 text-lg leading-relaxed;
+}
+
+.block-image {
+  @apply bg-blue-900/20 border-blue-800/50 flex flex-col items-center text-center p-8;
+}
+
+.block-narration {
+  @apply bg-purple-900/20 border-purple-800/50 text-purple-100 font-medium;
+}
+
+.block-storyboard {
+  @apply bg-emerald-900/20 border-emerald-800/50 text-emerald-100 italic;
+}
