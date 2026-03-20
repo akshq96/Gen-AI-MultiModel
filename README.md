@@ -51,7 +51,7 @@ This project is a high-performance **Multimodal Creative Storytelling Agent** bu
 2. Start the Next.js development server:
    ```bash
    npm run dev
-   ```
+   ``` 
    *The UI will be accessible at `http://localhost:3000`.*
 
 ---
