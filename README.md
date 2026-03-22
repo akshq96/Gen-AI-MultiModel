@@ -86,7 +86,21 @@ To deploy this hackathon project, follow these steps:
       --allow-unauthenticated \
       --region us-central1
     ```
+---
 
+## ⚙️ Tech Stack
+
+### Backend
+- Python  
+- FastAPI (or similar framework)  
+- Gemini API (for AI generation)  
+
+### Frontend
+- Next.js  
+- React  
+- Tailwind CSS (assumed)  
+
+---
 ## Hackathon Features Achieved
 ✅ **Multimodal Inputs**: Accepts text prompts and reference image URLs.
 ✅ **Interleaved Response Streaming**: Native UI experience showcasing Story $\\rightarrow$ Art $\\rightarrow$ Voice $\\rightarrow$ Video chunks dynamically.
