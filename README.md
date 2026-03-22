@@ -9,8 +9,6 @@ This project is a high-performance **Multimodal Creative Storytelling Agent** bu
 
 ## Architecture
 
-![Architecture](https://via.placeholder.com/800x400?text=Next.js
-
 *   **Frontend**: Built with `Next.js 14` and `Tailwind CSS`. Features a "studio" UI that consumes real-time data chunks to display interleaved content without waiting for the complete payload.
 *   **Backend**: A `FastAPI` Server providing an asynchronous SSE (Server-Sent Events) endpoint (`/generate-story`), yielding segments dynamically.
 *   **Agent Logic**: Distinct generators (`story`, `image`, `narration`, `storyboard`) powered by `gemini-2.5-flash` via the `google-generativeai` SDK.
