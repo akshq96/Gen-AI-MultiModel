@@ -103,4 +103,4 @@ To deploy this hackathon project, follow these steps:
 - **Multimodal Inputs**: Accepts text prompts and reference image URLs.
  - **Interleaved Response Streaming**: Native UI experience showcasing Story $\\rightarrow$ Art $\\rightarrow$ Voice $\\rightarrow$ Video chunks dynamically.
  - **Google GenAI SDK**: Implemented `gemini-2.5-flash` natively.
- **Google Cloud Integration**: Configured paths for Google Cloud Storage and designed for GCP Cloud Run deployment.
+ - **Google Cloud Integration**: Configured paths for Google Cloud Storage and designed for GCP Cloud Run deployment.
