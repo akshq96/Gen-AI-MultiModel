@@ -117,6 +117,5 @@ To deploy this hackathon project, follow these steps:
    - Image prompt creation  
    - Narration generation  
 4. Output is returned and displayed  
-
- ---
+---
 
