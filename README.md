@@ -104,3 +104,19 @@ To deploy this hackathon project, follow these steps:
 - **Interleaved Response Streaming**: Native UI experience showcasing Story $\\rightarrow$ Art $\\rightarrow$ Voice $\\rightarrow$ Video chunks dynamically.
 - **Google GenAI SDK**: Implemented `gemini-2.5-flash` natively.
 - **Google Cloud Integration**: Configured paths for Google Cloud Storage and designed for GCP Cloud Run deployment.
+
+  ---
+
+## 🔄 How It Works
+
+1. User inputs a prompt via frontend  
+2. Backend agent controller processes request  
+3. Pipeline executes:
+   - Story generation  
+   - Storyboard breakdown  
+   - Image prompt creation  
+   - Narration generation  
+4. Output is returned and displayed  
+
+---
+
