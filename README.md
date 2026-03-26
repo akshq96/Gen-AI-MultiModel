@@ -105,7 +105,7 @@ To deploy this hackathon project, follow these steps:
 - **Google GenAI SDK**: Implemented `gemini-2.5-flash` natively.
 - **Google Cloud Integration**: Configured paths for Google Cloud Storage and designed for GCP Cloud Run deployment.
 
-  ---
+---
 
 ## How It Works
 
