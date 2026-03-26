@@ -107,7 +107,7 @@ To deploy this hackathon project, follow these steps:
 
   ---
 
-##  How It Works
+## How It Works
 
 1. User inputs a prompt via frontend  
 2. Backend agent controller processes request  
