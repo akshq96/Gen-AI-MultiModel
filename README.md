@@ -118,5 +118,5 @@ To deploy this hackathon project, follow these steps:
    - Narration generation  
 4. Output is returned and displayed  
 
----
+ ---
 
